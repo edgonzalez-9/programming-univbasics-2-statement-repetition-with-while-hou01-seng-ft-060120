@@ -1,9 +1,9 @@
 count = 11
 
-if count != 0 
 while count > 0 do 
   puts "#{count}"
   count = count - 1
-else 
+end
+if count == 0 
   puts "Happy New Year!"
 end
